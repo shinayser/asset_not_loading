@@ -15,7 +15,7 @@ void main() {
     await tester.pumpWidget(MyApp());
   });
 
-  testWidgets('This test will pass, wtf?', (WidgetTester tester) async {
+  testWidgets('This test will pass, but how??', (WidgetTester tester) async {
     await tester.pumpWidget(MyApp());
   });
 }
