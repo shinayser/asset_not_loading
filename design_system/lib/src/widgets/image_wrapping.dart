@@ -10,6 +10,7 @@ class ImageWrapper extends StatelessWidget {
     return Image.asset(
       name,
       package: 'design_system',
+      width: 100,
     );
   }
 }
