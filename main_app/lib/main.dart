@@ -12,10 +12,13 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       home: Scaffold(
-        body: Center(
-          // Center is a layout widget. It takes a single child and positions it
-          // in the middle of the parent.
-          child: ImageWrapper(Assets.grumpyCat),
+        body: Container(
+          height: 400,
+          width: 400,
+          child: Column(children: [
+            ImageWrapper(Assets.grumpyCat),
+            GrumpCatImage(),
+          ]),
         ),
       ),
     );
