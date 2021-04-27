@@ -1,7 +1,6 @@
 # Assets not loading
-Repository to show a problem happening on flutter testing framework.
+As you can see the bug is now fixed.
 
-Simply clone the project on your machine and then:
+# What I did to fix it?
+I added a dummy jpg on the pubspec of the main_app pubspec.
 
-1. `flutter pub get` inside both modules (main_app and design system)
-2. cd main_app and then `flutter test`

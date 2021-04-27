@@ -5,17 +5,19 @@
 // gestures. You can also use WidgetTester to find child widgets in the widget
 // tree, read text, and verify that the values of widget properties are correct.
 
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
 import 'package:main_app/main.dart';
 
 void main() {
-  testWidgets('This test will fail, but why?', (WidgetTester tester) async {
+  testWidgets(
+      'Now the test passes because '
+      'of the dummy added on the pubspec :)', (WidgetTester tester) async {
     await tester.pumpWidget(MyApp());
   });
 
-  testWidgets('This test will pass, but how??', (WidgetTester tester) async {
+  testWidgets(
+      'Now the test passes because '
+      'of the dummy added on the pubspec :)', (WidgetTester tester) async {
     await tester.pumpWidget(MyApp());
   });
 }
